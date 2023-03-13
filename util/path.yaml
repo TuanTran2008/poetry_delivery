@@ -1,0 +1,22 @@
+FIRST_FILE_MOV : "{PROJECT}_{eps}_{seq}_{shot}_{ANIM}_{step_client}_v{version}.mov"
+SECOND_FILE_MOV : "{PROJECT}_{eps}_{seq}_{shot}.mov"
+THIRD_FILE_MOV : "{PROJECT_CLIENT}_{eps}_{shot}_{ANIM}_{step_client}_v{version}_{DATE}.mov"
+
+MAYA_CLIENT_FILE : "PDP_{eps}_{seq}_{shot}_{ANIM}_{step_client}_v{version}_{SPARX}.ma"
+
+MOV_EXT : ".mov"
+MAYA_EXT: ".ma"
+
+FOLDER_TEMP : "$TEMP/delivery_PDP_{date}"
+
+DELI_SHOT_TXT : "${ENV}/{step}/deliveredShot.txt"
+DELI_MOV_TXT : "${ENV}/{step}/deliveredMov.txt"
+
+DELI_SHOT_XLS : "${ENV}/{step}/deliveredMov{date}.xlsx"
+DELI_SHOT_DUP_XLS : "${ENV}/{step}/deliveredMov{date}.xlsx"
+
+FIRST_MOV_PATH : "${ENV}/{step}/{FOLDER_CLIENT}/{SCENES}/{ANIMATION}/{SEASON}/{eps}/{EDIT}/{step_client}"
+SECOND_MOV_PATH : "${ENV}/{step}/{FOLDER_CLIENT}/{SCENES}/{ANIMATION}/{SEASON}/{eps}/{EDIT}"
+THIRD_MOV_PATH : "${ENV}/{step}/{FOLDER_CLIENT}/{SCENES}/{ANIMATION}/{SEASON}/{eps}/{seq}_{shot}/{LOCAL}/{AV}"
+
+MAYA_CLIENT_PATH : "${ENV}/{step}/{FOLDER_CLIENT}/{SCENES}/{ANIMATION}/{SEASON}/{eps}/{seq}_{shot}/{LOCAL}/{step_client}"

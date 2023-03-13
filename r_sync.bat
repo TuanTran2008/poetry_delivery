@@ -1,0 +1,1 @@
+ C:\vsTools2\VsRunner.bat PDP mayapy2018  C:\vsTools2\PDP\python\delivery\r_sync_call.py %1

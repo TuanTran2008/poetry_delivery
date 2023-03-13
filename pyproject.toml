@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "delivery-to-client"
+version = "0.1.0"
+description = "Delivery .mov, .ma files to client"
+authors = ["Tran Ly Minh Tuan <tuan.tran_a@virtuos-sparx.com>"]
+readme = "README.md"
+packages = [{include = "delivery_to_client"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+pytest = "^7.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
